@@ -1,4 +1,15 @@
-# flow-mcp
+# Flow Studio & Flow MCP
+
+> [!NOTE]
+> **Credits & Upstream Attribution**:
+> This project is a fork and enhancement of **[GTAI-1/flow-mcp](https://github.com/GTAI-1/flow-mcp)** created by the **GTAI-1** team.
+> Full credit for the core concept, architecture, and original MCP implementation goes to the original authors under the ISC License.
+>
+> **Enhancements & Fixes in this fork (`kikik27/flow-studio`)**:
+> - 🛠️ **Google Flow DOM Selectors**: Updated settings trigger button locator to handle recent Flow UI mutations (`button.settings-trigger-button`).
+> - ⌨️ **Prompt Text Entry**: Replaced flaky direct input typing with `document.execCommand('insertText')` on the ProseMirror editor so prompts are entered reliably without hanging or timing out.
+> - 👥 **Character Creation Flow**: Added support for the updated Flow 'Add media menu' dropdown for character creation.
+> - 🔄 **Agent Mode Toggling**: Enhanced agent chip detection and state verification.
 
 Drive **Google Flow** (flow.google.com) from Claude, Codex or any other MCP app, or from a local control
 panel, using Flow's own credits (free with any Google account: 50 a day), not the pay-per-use video API.

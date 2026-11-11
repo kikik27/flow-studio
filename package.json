@@ -13,6 +13,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikik27/flow-studio.git"
+  },
+  "homepage": "https://github.com/GTAI-1/flow-mcp#readme",
   "type": "module",
   "bin": {
     "flow-mcp": "dist/index.js"
